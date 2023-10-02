@@ -299,8 +299,69 @@ for(let value of valueArr){
     console.log(value);
 }
 
-// for .. in문을 이용한 순회
+// for .. in문을 이용한 순회 -- > Object.value 보다 훨씬 간단!
 for(let key in person) {
     const value = person[key];
     console.log(key, value);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 구조 분해 할당 : 구조를 분해해 할당하는 문법
+// - 배열이나 객체에 요소를 해체해 개별 변수에 그 값을 담을 때 사용
+
+// 배열의 구조 분해 할당
+// - 배열에서 값을 하나씩 변수에 할당하는 예
+arr = [1,2,3];
+let one = arr[0];
+let two = arr[1];
+let three = arr[2];
+
+console.log(one, two, three);
+
+// !구조분해 할당! 방법 사용! -> 더욱 간결하게 사용 가능!
+arr = [1,2,3];
+let [one1, two2, three3] = arr;
+
+console.log(one1, two2, three3);
+
+
+//1.
+function getArea(radius){
+    const pi = 3.14;
+
+    return radius*radius*pi;
+}
+
+console.log(getArea(3));
+
+//2.
+let book = {
+    "책 이름" : "hi",
+    저자 : "author",
+    가격 : 12000
+};
+
+for(let key in book){
+    let values = book[key];
+    console.log(values);
 }
