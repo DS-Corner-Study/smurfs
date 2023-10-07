@@ -365,3 +365,6 @@ for(let key in book){
     let values = book[key];
     console.log(values);
 }
+
+let date = new Date();
+console.log(date.getMonth());

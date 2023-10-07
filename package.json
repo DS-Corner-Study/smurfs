@@ -1,0 +1,24 @@
+{
+  "name": "chapter3",
+  "version": "1.0.0",
+  "description": "✔ 스터디 과목 : REACT <br/> ✔스터디 팀 : REACT 3",
+  "main": "1장.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainhyeon/ReactStudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rainhyeon/ReactStudy/issues"
+  },
+  "homepage": "https://github.com/rainhyeon/ReactStudy#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
