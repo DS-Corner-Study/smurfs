@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/rainhyeon/ReactStudy#readme",
   "dependencies": {
+    "download": "^8.0.0",
     "lodash": "^4.17.21"
   }
 }
